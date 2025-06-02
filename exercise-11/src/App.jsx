@@ -8,7 +8,7 @@ function App() {
   const [password , setPassword] = useState('');
   const [logedIn, setLoggedIn] = useState(false);
 
-const handleClick = () => {
+const handleSignIn = () => {
   if (username !== '' && password !== '') {
     setLoggedIn(true);
   }
@@ -33,7 +33,7 @@ const handleSignOut = () => {
           <h1>Login</h1>
           <input type="text" placeholder='Enter user name' value={username} onChange={(e)=>setUserName(e.target.value)}  required/>
           <input type="password" placeholder='Enter user name' value={password} onChange={(e)=>setPassword(e.target.value)} required/>
-          <button onClick={handleClick} className='login'>Login</button>
+          <button onClick={handleSignIn} className='login'>Login</button>
         </div>    
       )
     }
