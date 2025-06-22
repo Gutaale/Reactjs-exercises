@@ -1,0 +1,22 @@
+.todoForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.todoInput{
+    width: 80%;
+    padding: 10px;
+    outline:none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    background: #8a2be2;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+}
